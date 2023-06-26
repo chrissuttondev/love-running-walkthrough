@@ -33,6 +33,11 @@ h2 {
     letter-spacing: 4px;
 }
 
+#menu,
+#logo {
+    line-height: 75px;
+}
+
 #menu li {
     list-style-type: none;
     margin-right: 30px;
@@ -42,5 +47,19 @@ h2 {
 
 #float-right {
     float: right;
-    margin-top: 1%;
+
 }
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: solid #3a3a3a;
+}
+
+
+.active {
+    border-bottom: solid #3a3a3a;
+} 
