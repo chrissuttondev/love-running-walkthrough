@@ -144,7 +144,7 @@ h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 hr {
@@ -216,16 +216,16 @@ hr {
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
-    float: left;   
+    float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border: 2px solid white; 
+    border: 2px solid white;
     box-sizing: border-box;
 }
 
 #times h2 {
     color: #fafafa;
-    
+
 }
 
 /* footer*/
@@ -238,7 +238,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -258,7 +258,7 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -277,7 +277,8 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -292,5 +293,17 @@ footer {
 
     hr {
         display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
